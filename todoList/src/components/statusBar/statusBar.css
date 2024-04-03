@@ -1,0 +1,10 @@
+.statusBarWrapper {
+    position: fixed;
+    width: 190px;
+    height: 250px;
+    background-color: #FFF;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 25px rgba(34, 60, 80, 0.2);
+}

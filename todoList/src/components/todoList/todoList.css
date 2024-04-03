@@ -1,0 +1,77 @@
+.todoListWrapper {
+    width: 500px;
+    min-height: 600px;
+    background-color: #FFF;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 25px rgba(34, 60, 80, 0.2);
+    padding: 30px;
+}
+
+.toDo {
+    margin-bottom: 15px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toDoIntro {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.elementToDoName {
+    font-weight: 700;
+}
+
+.elementToDoTime {
+    font-size: 15px;
+    color: gray;
+}
+
+.elementToDoChangeStatus {
+    margin-top: 8px;
+    background-color: rgb(202, 202, 202);
+    color: #FFF;
+    border: none;
+    border-radius: 40px;
+    padding:5px;
+}
+
+.elementToDoChangeStatus:hover {
+    cursor: pointer;
+}
+
+.elementToDoStatus {
+    font-weight: 700;
+}
+
+.toDoButton {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(202, 202, 202);
+    color: #FFF;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.toDoButton:hover {
+    cursor: pointer;
+}
+
+.totoListAddTask {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todoInput {
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(235, 230, 230);
+    padding: 20px;
+    cursor: pointer;
+}
