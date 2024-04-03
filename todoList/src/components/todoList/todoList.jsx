@@ -27,7 +27,7 @@ const ToDoList = ({ state, dispatch }) => {
         fetch(consts.SERVERURL, {
             method: 'POST',
             body: JSON.stringify(newTask)
-        }).catch(alert("Ошибка отправки на сервер"))
+        })
         setAddTask(false)
         dispatch({type: 'POST', payload: newTask})
         console.log(addTask)
